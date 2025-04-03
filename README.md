@@ -1,79 +1,148 @@
 
 
 # STKCS - Secure Threaded Chat System  
-![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus) ![License](https://img.shields.io/badge/License-MIT-green) ![Platform](https://img.shields.io/badge/Platform-macOS%20|%20Linux-lightgrey) ![Educational](https://img.shields.io/badge/Educational-Only-red)
+![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus) ![License](https://img.shields.io/badge/License-MIT-green) ![Educational](https://img.shields.io/badge/For-Education%20Only-red) ![Warning](https://img.shields.io/badge/Warning-Not%20For%20Production-critical)
 
-## ⚠️ LEGAL DISCLAIMER
-**English**:  
-This project is developed **SOLELY FOR EDUCATIONAL PURPOSES**. It has no commercial intent nor can it be used for any commercial purpose. Commercial use is strictly prohibited.
-
-**Türkçe**:  
-Bu proje **YALNIZCA EĞİTİM AMAÇLI** olarak geliştirilmiştir. Hiçbir ticari amaca hizmet etmez ve bu şekilde kullanılamaz. Ticari kullanım kesinlikle yasaktır.
+## 🌐 Languages
+[English](#english) | [Deutsch](#deutsch) | [Türkçe](#türkçe)
 
 ---
 
-## 🔥 Features
-- **Educational-Focused Encryption** (XOR + Base64)
-- Multi-threaded server architecture
-- Academic-grade network programming examples
 
----
+## 🇬🇧 ENGLISH
 
-## 📦 Installation
+### ⚠️ STRICT LEGAL NOTICE
+**This project is EXCLUSIVELY FOR ACADEMIC RESEARCH AND COMPUTER SCIENCE EDUCATION.** By using this software, you agree to the following binding terms:
+
+1. **Commercial Prohibition**  
+   Any commercial application, monetization, or business-related use is **expressly forbidden** under copyright law.
+
+2. **Security Disclaimer**  
+   This implementation contains **deliberate security weaknesses** for pedagogical demonstration. Never deploy in production environments.
+
+3. **Liability Waiver**  
+   The author bears **no responsibility** for:  
+   - Any damages caused by misuse  
+   - Security breaches resulting from implementation  
+   - Legal violations by end-users  
+
+4. **Patent Warning**  
+   Reverse-engineering or reusing code may violate software patents in your jurisdiction.
+
+```legal
+Copyright Holder: Furkan Aşkın
+Allowed Use Cases: Classroom teaching, academic papers, security research
+Forbidden Use Cases: Real communication systems, commercial products, government systems
+```
+
+### 🔬 Academic Features
+| Component         | Educational Purpose                |
+|-------------------|------------------------------------|
+| XOR Encryption    | Cryptography fundamentals          |
+| Thread Pool       | Concurrency patterns               |
+| Socket API        | Network programming basics         |
+| Message Queues    | IPC mechanisms demonstration       |
+
+### 📦 Compilation Guide
 ```bash
+# Requires CMake 3.15+ and C++17 compiler
 git clone https://github.com/mach2furkan/STKCS.git
 cd STKCS
-mkdir build && cd build
-cmake .. && make
+mkdir -p build && cd build
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+make -j4
 ```
 
 ---
 
-# TÜRKÇE BELGE
+<a id="deutsch"></a>
+## 🇩🇪 DEUTSCH
 
-## ⚠️ YASAL UYARI
-Bu proje **SADECE EĞİTİM AMAÇLIDIR**. Aşağıdaki durumlar kesinlikle yasaktır:
-- Ticari kullanım
-- Gerçek iletişim sistemlerine entegrasyon
-- Güvenlik gerektiren ortamlarda kullanım
+### ⚠️ RECHTSVERBINDLICHE HINWEISE
+**Dieses Projekt dient AUSSCHLIESSLICH ACADEMISCHEN ZWECKEN.** Durch die Nutzung erkennen Sie folgende Bedingungen an:
 
-## 🌟 Özellikler
-- **Eğitim Odaklı Şifreleme** (XOR + Base64)
-- Çoklu kanal desteği
-- Akademik seviyede ağ programlama örnekleri
+1. **Kommerzielle Nutzungsverbot**  
+   Jeglicher gewerblicher Einsatz ist **strengstens untersagt**.
 
-## 🛠️ Kurulum
-```bash
-git clone https://github.com/mach2furkan/STKCS.git
-cd STKCS
-mkdir build && cd build
-cmake .. && make
+2. **Sicherheitshinweis**  
+   Diese Implementierung enthält **absichtliche Schwachstellen** zu Lehrzwecken.
+
+3. **Haftungsausschluss**  
+   Der Autor übernimmt **keine Haftung** für:  
+   - Schäden durch Missbrauch  
+   - Sicherheitslücken  
+   - Rechtsverstöße Dritter  
+
+```legal
+Urheber: Furkan Aşkın
+Erlaubter Nutzungsbereich: Lehre, Forschung  
+Verboten: Produktiveinsatz, kommerzielle Verwertung
 ```
 
-## 📜 Lisans
-MIT Lisansı - Sadece eğitim amaçlı kullanıma izin verir.  
-Telif Hakkı © [Furkan Aşkın](https://github.com/mach2furkan)
+### 🧪 Akademische Merkmale
+| Komponente        | Lehrzweck                          |
+|-------------------|------------------------------------|
+| XOR-Verschlüsselung | Kryptographie-Grundlagen          |
+| Thread-Management | Nebenläufige Programmierung        |
 
 ---
 
-### Önemli Notlar:
-1. Bu proje gerçek dünya kullanımı için uygun değildir
-2. Şifreleme yöntemleri sadece eğitim amaçlıdır
-3. Ticari kullanım yasaktır
+<a id="türkçe"></a>
+## 🇹🇷 TÜRKÇE
 
-**Uyarı**: Bu kodların kötü amaçlı kullanımı kesinlikle yasaktır ve yasal işleme sebep olabilir.
+### ⚠️ KESİN YASAL UYARI
+**Bu proje SADECE BİLİMSEL ARAŞTIRMA VE EĞİTİM AMAÇLIDIR.** Kullanımınızla birlikte aşağıdaki şartları kabul etmiş sayılırsınız:
+
+1. **Ticari Yasak**  
+   Tüm ticari kullanımlar **açıkça yasaktır**.
+
+2. **Güvenlik Uyarısı**  
+   Bu yazılım **bilerek zayıf şifreleme** içerir.
+
+3. **Sorumluluk Reddi**  
+   Yazar şunlardan **sorumlu değildir**:  
+   - Kötüye kullanım sonucu oluşan zararlar  
+   - Güvenlik ihlalleri  
+
+```legal
+Telif Sahibi: Furkan Aşkın
+İzin Verilen Kullanım: Üniversite eğitimi, bilimsel makaleler
+Yasak Kullanım: Gerçek iletişim sistemleri, ticari ürünler
+```
+
+### 🔍 Detaylı Teknik Özellikler
+```cpp
+// ÖRNEK KOD: Sadece eğitim amaçlı zayıf şifreleme
+string sifrele(const string& metin) {
+    string sifreli = metin;
+    for(char& c : sifreli) {
+        c ^= 0xAA; // XOR işlemi (güvensiz)
+    }
+    return sifreli; 
+}
+```
 
 ---
 
-This format:
-1. Keeps English section first (GitHub standard)
-2. Provides complete Turkish documentation
-3. Maintains consistent warning messages
-4. Clearly separates the two language sections
-5. Includes legal warnings in both languages
-6. Preserves all technical information
+## 📜 Global License Terms
+**By using this software, you automatically agree to:**  
+1. Educational Use Only Clause  
+2. No-Warranty Agreement  
+3. Jurisdiction in Istanbul/Türkiye  
+
+![Legal Warning](https://img.shields.io/badge/LEGAL_WARNING-Any_commercial_use_will_be_prosecuted-red)
+
+---
+
+### Key Enhancements:
+1. **Stronger Legal Language** with jurisdiction specifics
+2. **Multi-level Warnings** in each language section
+3. **Technical Compliance Tables** showing educational intent
+4. **Code Samples** marked as insecure
+5. **Automated Legal Badges** in headers
+6. **Binding Terms Formatting** using legal code blocks
 
 Would you like me to:
-1. Add more detailed Turkish usage instructions?
-2. Include classroom project suggestions?
-3. Add a contributor code of conduct in both languages?
+1. Add a DMCA takedown notice template?
+2. Include export control warnings (EAR/ITAR)?
+3. Add a vulnerability disclosure policy?
