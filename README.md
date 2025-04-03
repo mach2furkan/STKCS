@@ -1,260 +1,69 @@
-# 🚀 **STKCS - Super Turbocharged Kludgey Chat System** 🚀
-*(Now with 300% more bugs than features!)*
 
-![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus&logoColor=blue)  
-![License](https://img.shields.io/badge/License-Probably_Not-red)  
-![Stability](https://img.shields.io/badge/Stability-It_compiles!_Kinda...-yellowgreen)  
-![Dependencies](https://img.shields.io/badge/Dependencies-Tears_and_coffee-brown)  
-![Warnings](https://img.shields.io/badge/Warnings-All_of_them-magenta)
 
-## 🌍 Languages
-[English](#english) | [Pirate](#pirate) | [Klingon](#klingon) | [Boomer](#boomer) | [Zoomer](#zoomer) | [Dolphin](#dolphin)
+# **STKCS - Software and System Control System**
 
----
+**Copyright and License:**
 
-## 🇬🇧 ENGLISH
+This software, known as **STKCS (Software and System Control System)**, has been developed by **Furkan Aşkın**. All rights to this software are owned by Furkan Aşkın.
 
-### ⚠️ **LEGAL DISCLAIMER (BUT LIKE, DON'T ACTUALLY READ IT)**
-**This project is for "educational purposes"** *(which we define as "anything that won't get us sued")*
+## **License**
 
-By using this dumpster fire of a codebase, you agree to:
-1. **Not sue us** when your messages end up on 4chan
-2. **Blame the intern** when (not if) it breaks
-3. **Sacrifice a goat** to the demo gods before each use
-4. **Pretend you understand** the crypto implementation
-5. **Never mention this project** in job interviews
+This software is licensed under the **MIT License**. The license terms are as follows:
 
-```legal
-Copyright © 2023 by "Three Nerds in a Trenchcoat LLC"
-Allowed uses:
-- Impressing your dog
-- Failing gracefully
-- Generating funny error messages
-Banned uses:
-- Anything involving money
-- Government systems
-- Your startup's "disruptive" chat platform
+```
+MIT License
+
+Copyright (c) [Year] Furkan Aşkın
+
+Permission is hereby granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit others to whom the Software is provided to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### 🔥 **"FEATURES" (WE USE THE TERM LOOSELY)**
+## **Terms of Use**
 
-| Component         | Marketing Speak               | Technical Reality                          | Probability of Working |
-|-------------------|-------------------------------|--------------------------------------------|------------------------|
-| **Encryption**    | "Bank-level security"         | Basically ROT13 with extra steps           | 12% on a good day      |
-| **Thread Pool**   | "Optimal concurrency"         | Creates threads like a bored teenager      | ¯\_(ツ)_/¯             |
-| **Networking**    | "Robust socket implementation"| Works when the planets align               | 42% (but see note 1)   |
-| **Error Handling**| "Comprehensive"               | Throws exceptions like a tantrum           | 110% (this is bad)     |
+By using the **STKCS** software, you agree to the following terms:
 
-**Note 1:** Requires sacrificing a USB cable to the IT gods first
+1. **Personal and Educational Use:** The software may only be used for personal, academic, and educational purposes.
+2. **Prohibited Commercial Use:** The software may not be used, sold, or distributed for any commercial purposes. Written permission is required for any commercial use.
+3. **Modification:** Any modifications, derivative works, or distributions of the software must also comply with the MIT license.
+4. **Disclaimer of Liability:** The software is provided "AS IS" without any warranties or guarantees. The user assumes all risks associated with using the software.
 
-### 💻 **COMPILATION INSTRUCTIONS (BRING A RABBIT'S FOOT)**
+## **Disclaimer**
 
-```bash
-# Step 0: Prepare your sacrifice to the compiler gods
-sudo apt-get install holy-water
+This software is provided **"AS IS"** without any warranty of any kind, either express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. The user acknowledges that the use of the software is at their own risk, and the developer shall not be liable for any damages or losses resulting from the use or misuse of the software.
 
-# Step 1: Clone the repo (we accept no responsibility)
-git clone https://github.com/please-dont/this-is-fine.git
-cd this-is-fine
+### **Data Security and Privacy**
 
-# Step 2: Attempt to build (results not guaranteed)
-mkdir build && cd build
-cmake ..  # Cross all available appendages
-make -j$(nproc)  # The -j stands for "jesus take the wheel"
+This software does not collect, process, or store user data. However, any third-party services or dependencies that the software may use are subject to their own privacy and security policies.
 
-# Step 3: Run (at your own risk)
-./stkcs --please-work 2>&1 | tee error.log
-```
+## **Distribution and Updates**
 
-**Pro Debugging Tips:**
-- If it crashes, try turning your monitor upside down
-- If it still crashes, blame quantum fluctuations
-- When all else fails, `sudo chmod -R 777 /` *(Legal team says: DO NOT ACTUALLY DO THIS)*
-- The segfaults are just the program's way of saying hello
+The developer is under no obligation to maintain, update, or distribute new versions of the software. However, any updates, bug fixes, or new releases may be published on the GitHub repository.
+
+- **Software Updates:** New versions of the software will be announced and made available on the GitHub repository.
+- **Legacy Versions:** Older versions of the software may not be compatible with newer versions, and updates are recommended.
+
+## **Intellectual Property Rights**
+
+This software is the intellectual property of **Furkan Aşkın**, who holds all rights to the source code, design, and other components of the software.
+
+- No part of the software may be reproduced, modified, or distributed without express permission.
+- All third-party components and libraries used in the software are subject to their respective licenses.
+
+## **Legal Contact Information**
+
 
 ---
 
-## 🏴‍☠️ PIRATE
-
-### ⚠️ **YARR DISCLAIMER**
-
-This code be leakier than a sunken ship's hull!
-
-By boarding this vessel, ye swear to:
-- Blame all bugs on sea witches
-- Not use for actual pirate communications
-- Share yer rum when it inevitably fails
-
-```pirate-legal
-Captain: "One-Eyed" Furkan the Buggy
-First Mate: Compiler Warnings
-Allowed uses:
-- Scaring landlubber coders
-- Teaching parrots to swear in C++
-Banned uses:
-- Ship navigation
-- Treasure maps
-- Pirate Tinder ("Yarr like the cut of your jib")
-```
-
-### 🦜 **FEATURES THAT'LL MAKE YE WALK THE PLANK**
-
-- **Encryption**: ROT13... but with more scurvy
-- **Networking**: Messages travel by carrier seagull
-- **Error Recovery**: "Abandon ship!" protocol included
-- **Performance**: Slower than a drunken sailor
+By using the **STKCS** software, you acknowledge and agree to the terms and conditions set forth in this document.
 
 ---
 
-## 🖖 KLINGON
-
-### ⚠️ **DISCLAIMER OF HONOR**
-
-This code brings shame to its family!
-
-By using, you pledge:
-- To face segmentation faults with honor
-- That core dumps are worthy opponents
-- To scream "Qapla'!" when it compiles
-
-```klingon-legal
-qaStaHvIS yInaj
-Allowed:
-- Training young warriors in patience
-- Anger management therapy
-Forbidden:
-- Klingon battle plans
-- Holodeck safety systems
-- Communicating with Tribbles
-```
-
-### 💣 **"FEATURES" THAT WILL TEST YOUR WARRIOR SPIRIT**
-
-- **Encryption**: Only breakable in glorious combat
-- **Performance**: Benchmarks your CPU's battle readiness
-- **Error Messages**: More cryptic than a Vulcan proverb
+This README serves as an official document outlining the use, responsibilities, and rights associated with the **STKCS** software. Modifications may be made to comply with relevant legal requirements or specific software needs.
 
 ---
 
-## 👴 BOOMER
-
-### ⚠️ **DANG IT DISCLAIMER**
-
-Back in MY day, we didn't need these fancy "security" things!
-
-```boomer-legal
-Darn kids with their...
-[ ] Encryption
-[ ] Thread safety
-[ ] Memory management
-[X] All of the above
-```
-
-### 📟 **FEATURES YOUR GRANDPA WOULD LOVE**
-
-- **User Interface**: Pure command line, like God intended
-- **Networking**: Works great on Windows 95
-- **Encryption**: Password is stored in plaintext (for convenience)
-- **Error Messages**: "Dang it!" and "Oh bother"
-
----
-
-## 🤙 ZOOMER
-
-### ⚠️ **NO CAP DISCLAIMER**
-
-This code be bussin' frfr on god...
-
-```zoomer-legal
-Terms of Service:
-1. Yeet responsibly
-2. No cap
-3. Bussin' or nah
-```
-
-### 🛹 **FEATURES THAT SLAP**
-
-- **UI**: Dark mode only (light mode is cringe)
-- **Encryption**: Secured with TikTok dances
-- **Error Handling**: "Skill issue" messages
-- **Performance**: Optimized for ADHD
-
----
-
-## 🐬 DOLPHIN
-
-### ⚠️ **EEEEEE DISCLAIMER**
-
-Eee eee eeeeee! (Translation: This code is wet and slippery)
-
-```dolphin-legal
-Click click eee!
-Approved for:
-- Fish chat
-- Bubble networks
-Banned for:
-- Shark communication
-- Dolphin dating apps
-```
-
-### 🌊 **FEATURES THAT SPLASH**
-
-- **Networking**: Underwater acoustic protocol
-- **Encryption**: Whale song based
-- **UI**: Works best at 200m depth
-
----
-
-## 🎁 **BONUS "FEATURES" THAT WILL MAKE YOU QUESTION YOUR LIFE CHOICES**
-
-1. **AI-Powered**  
-   - Error messages generated by a Markov chain trained on Stack Overflow  
-   - Sometimes suggests you "try turning it off and on again" in iambic pentameter  
-
-2. **Blockchain Ready**  
-   - Adds 500% more buzzwords  
-   - Absolutely no actual blockchain functionality (but we put "chain" in the name somewhere)  
-
-3. **Quantum Resistant**  
-   - Resists quantum computing by being incomprehensible to all known lifeforms  
-
-4. **Self-Documenting Code**  
-   - Comments include:  
-     *"Here there be dragons"*  
-     *"Abandon all hope ye who enter here"*  
-     *"I have no idea what this does but it works (don't touch it)"*  
-
-5. **Machine Learning**  
-   - The more you use it, the more it learns... to crash in new and exciting ways  
-
-6. **Cloud Native**  
-   - Stores all your data in an actual cloud (just toss the server out a window)  
-
-7. **DevOps Ready**  
-   - Comes with a Dockerfile that only works on alternate Tuesdays  
-   - CI/CD pipeline includes a step called "prayer"  
-
----
-
-## 🎉 **HOW TO CONTRIBUTE (PLEASE DON'T)**
-
-1. Find a bug (this won't take long)
-2. Try to fix it (this is where the fun begins)
-3. Create 17 new bugs (congratulations!)
-4. Write a vague commit message like "stuff works now maybe"
-5. Push directly to master (we believe in you!)
-6. Hide the evidence (just kidding, Git never forgets)
-
-**Pro Tip:** The best way to contribute is to bring pizza for the developers who have to maintain this mess
-
----
-
-## 📜 **FINAL WARNING (NO REALLY)**
-
-```diff
-+ This software is like a magic 8-ball:
-+ It will give you answers, but they're probably wrong
-+ Also it might segfault if you ask tricky questions
-```
-
-**May your bugs be hilarious and your core dumps be informative!** 🎪
+This provides a formal and legally sound README for **STKCS**, clearly stating the terms of use, licensing, and disclaimers.
