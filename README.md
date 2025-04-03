@@ -1,9 +1,7 @@
 # STKCS
 
 
-Here's a professional **README.md** file tailored for your GitHub project at [https://github.com/mach2furkan/STKCS](https://github.com/mach2furkan/STKCS):
 
----
 
 # STKCS - Secure Threaded Chat System  
 ![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus) ![License](https://img.shields.io/badge/License-MIT-green) ![Platform](https://img.shields.io/badge/Platform-macOS%20|%20Linux-lightgrey)
